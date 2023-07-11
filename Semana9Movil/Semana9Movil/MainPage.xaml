@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana9Movil.MainPage">
+
+    <StackLayout>
+
+        <Entry x:Name="txtid" Placeholder="Id:"/>
+        <Entry x:Name="txtnombre" Placeholder="Nombre:"/>
+        <Entry x:Name="txtclave" IsPassword="True"/>
+        <Entry x:Name="txtactiva" Keyboard="Numeric"/>
+
+        <Grid Margin="10,20,20,20" HeightRequest="750" >
+            <Button Grid.Row="0" Grid.Column="0" Text="Agregar manualmente (desconectados)" x:Name="btn01" BackgroundColor="DarkSlateGray" TextColor="yellow" 
+                CornerRadius="10" FontSize="10"/>
+
+            <Button Grid.Row="0" Grid.Column="1" Text="Borrar Grid (sin cambios en nube)" x:Name="btn06" BackgroundColor="Blue" TextColor="White" 
+                    CornerRadius="10" FontSize="10"/>
+
+            <Label Grid.Row="1" Grid.Column="0"  Text="Solo oprima para leer de la nube" />
+            <Button Grid.Row="1" Grid.Column="1" Text="VER ( TO SELECT )" x:Name="btn02" BackgroundColor="DimGray" CornerRadius="10" FontSize="10"/>
+
+            <Label Grid.Row="2" Grid.Column="0" Text="Borrar ingrese Id de la nube ads" FontSize="15" HeightRequest="100"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="Borrar (DELETE)  " x:Name="btn03" BackgroundColor="red" CornerRadius="10" FontSize="10"/>
+
+            <Label Grid.Row="3" Grid.Column="0"  Text="Para editar ingrese Id y nombre" FontSize="Small"/>
+            <Button Grid.Row="3" Grid.Column="1" Text="EDITAR (Update)" x:Name="btn04" BackgroundColor="Yellow" CornerRadius="10" FontSize="10"/>
+
+            <Label Grid.Row="4"  Grid.Column="0" Text="Agregar necesita toda la data" FontSize="Small"/>
+            <Button Grid.Row="4" Grid.Column="1" Text="Agregar (insert)" x:Name="btn05" BackgroundColor="GreenYellow" CornerRadius="10" FontSize="10"/>
+
+            <Label Grid.Row="5"  Grid.Column="0" Text="Consultar" FontSize="Small"/>
+            <Button Grid.Row="5" Grid.Column="1" Text="Consultar Select" x:Name="btn07" BackgroundColor="Purple" CornerRadius="10" TextColor="White"
+                    FontSize="10"/>
+        </Grid>
+
+        <StackLayout Orientation="Horizontal" Spacing="60" Margin="50,10,10,10">
+            <Label Text="    Id  " FontAttributes="Bold" TextDecorations="Strikethrough"/>
+            <Label Text="   Nombre" FontAttributes="Bold" TextDecorations="Underline" />
+            <Label Text="   Clave" FontAttributes="Bold" TextDecorations="Underline"/>
+            <Label Text="   Activa" FontAttributes="Bold" TextDecorations="Underline"/>
+        </StackLayout >
+
+        <ListView ItemsSource="{Binding CAT_USUARIOSS}" x:Name="ltusuario">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.RowSpan="2" Source="{Binding Url}" Aspect="AspectFill" HeightRequest="60" WidthRequest="60"/>
+                            <Label Grid.Column="1" Text="{Binding Id} " FontAttributes="Bold" />
+
+                            <Label Grid.Column="2" Text="{Binding Nombre} " FontAttributes="Bold" />
+                            <Label Grid.Column="3" Text="{Binding Clave} " FontAttributes="Bold" />
+                            <Label Grid.Column="4" Text="{Binding Activa} " FontAttributes="Bold" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label Text="lblstatus" FontAttributes="Bold" TextDecorations="Underline" x:Name="lblstatus"/>
+    </StackLayout>
+
+</ContentPage>
