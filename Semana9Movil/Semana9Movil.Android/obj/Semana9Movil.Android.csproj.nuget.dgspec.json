@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil.Android\\Semana9Movil.Android.csproj": {}
+    "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil.Android\\Semana9Movil.Android.csproj": {}
   },
   "projects": {
-    "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil.Android\\Semana9Movil.Android.csproj": {
+    "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil.Android\\Semana9Movil.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil.Android\\Semana9Movil.Android.csproj",
+        "projectUniqueName": "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil.Android\\Semana9Movil.Android.csproj",
         "projectName": "Semana9Movil.Android",
-        "projectPath": "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil.Android\\Semana9Movil.Android.csproj",
-        "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
-        "outputPath": "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil.Android\\obj\\",
+        "projectPath": "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil.Android\\Semana9Movil.Android.csproj",
+        "packagesPath": "C:\\Users\\Pabloboset\\.nuget\\packages\\",
+        "outputPath": "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pabloboset\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj": {
-                "projectPath": "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj"
+              "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj": {
+                "projectPath": "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
       "frameworks": {
         "monoandroid13.0": {
           "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -58,20 +62,20 @@
         }
       }
     },
-    "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj": {
+    "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj",
+        "projectUniqueName": "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj",
         "projectName": "Semana9Movil",
-        "projectPath": "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj",
-        "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
-        "outputPath": "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil\\obj\\",
+        "projectPath": "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj",
+        "packagesPath": "C:\\Users\\Pabloboset\\.nuget\\packages\\",
+        "outputPath": "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pabloboset\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

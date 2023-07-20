@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj": {}
+    "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj": {}
   },
   "projects": {
-    "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj": {
+    "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj",
+        "projectUniqueName": "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj",
         "projectName": "Semana9Movil",
-        "projectPath": "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj",
-        "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
-        "outputPath": "C:\\RepositoriosGitHub\\Semana9Movil\\Semana9Movil\\Semana9Movil\\obj\\",
+        "projectPath": "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil\\Semana9Movil.csproj",
+        "packagesPath": "C:\\Users\\Pabloboset\\.nuget\\packages\\",
+        "outputPath": "C:\\Temporal Web\\Semana9Movil\\Semana9Movil\\Semana9Movil\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pabloboset\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

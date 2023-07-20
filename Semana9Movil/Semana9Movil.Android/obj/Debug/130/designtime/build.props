@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638246229279385867
+_nugetassetstimestamp=638254616395525307
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\repositoriosgithub\semana9movil\semana9movil\semana9movil.android\semana9movil.android.csproj
+projectfullpath=c:\temporal web\semana9movil\semana9movil\semana9movil.android\semana9movil.android.csproj
